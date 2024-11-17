@@ -59,7 +59,6 @@ phoneLocator/
 │   │   ├── App.css         # Stylesheet for the application
 │   │   ├── App.js          # Main React component
 │   │   ├── index.js        # Entry point
-│   │   └── components/     # Reusable React components
 │   ├── package.json        # Frontend dependencies
 │
 └── README.md               # Documentation
