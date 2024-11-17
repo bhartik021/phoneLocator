@@ -2,6 +2,8 @@
 
 The Phone Locator Application is a full-stack project that allows users to find information about a phone number, including its country, location, carrier, and more. The project is built with a React.js frontend, a Django backend, and uses an external API for phone number validation and data retrieval.
 
+<img width="1470" alt="Screenshot 2024-11-17 at 7 23 13 PM" src="https://github.com/user-attachments/assets/ff12caf5-5cda-48fa-879c-df06ef4c886d">
+
 ## Features
 
 - **Validation**: Accepts phone numbers with country codes.
@@ -154,14 +156,14 @@ http://localhost:3000
 4. Response:
 ```json
 {
-  "country": "United States",
-  "location": "California",
-  "carrier": "Verizon",
+  "country": "United States of America",
+  "location": "Novato",
+  "carrier": "AT&T Mobility LLC",
   "country_code": "US",
-  "line_type": "Mobile",
-  "valid": true,
-  "international_format": "+1 1234567890",
-  "local_format": "1234567890"
+  "line_type": "mobile",
+  "valid": "Yes",
+  "international_format": "+14158586273",
+  "local_format": "4158586273"
 }
 ```
 
