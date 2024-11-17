@@ -30,7 +30,7 @@ The Phone Locator Application is a full-stack project that allows users to find 
 - **Numverify API**: Provides validation and detailed information for phone numbers.
 
 ## Project Structure 
-```
+```bash
 phoneLocator/
 ├── backend/                # Backend (Django REST Framework)
 │   ├── location/           # Main Django app for API handling
@@ -81,67 +81,67 @@ Follow these steps to set up the **Phone Locator Application** on your local mac
 git clone https://github.com/bhartik021/phoneLocator.git
 ```
 
-```
+```bash
 cd phoneLocator
 ```
 
 #### Step 2: Backend Setup
 
 Navigate to the backend directory:
-```
+```bash
 cd backend
 ```
 
 Create a virtual environment and activate it:
-```
+```bash
 python3 -m venv venv
 ```
 
-```
+```bash
 source venv/bin/activate
 ```
 
 Install the required dependencies:
-```
+```bash
 pip install -r requirements.txt
 ```
 
 Create a .env file in the backend directory:
-```
+```bash
 touch .env
 ```
 
 Add your NumVerify API key to the .env file:
-```
+```bash
 API_LAYER_KEY=your_api_key_here
 ```
 
 Run the Django development server:
-```
+```bash
 python manage.py runserver
 ```
 
 #### Step 3: Frontend Setup
 
 Navigate to the frontend directory:
-```
+```bash
 cd ../frontend
 ```
 
 Install frontend dependencies:
-```
+```bash
 npm install
 ```
 
 Start the React development server:
-```
+```bash
 npm start
 ```
 
 #### Step 4: Access the Application
 
 Open your browser and navigate to:
-```
+```bash
 http://localhost:3000
 ```
 
@@ -155,7 +155,7 @@ Parameters:
 `phone`: The phone number to validate and fetch details for.
 
 Response:
-```
+```json
 {
   "country": "United States",
   "location": "California",
@@ -178,17 +178,17 @@ Contributions are welcome! Follow these steps:
 
 ### Fork the repository.
 #### Create a feature branch:
-```
+```bash
 git checkout -b feature-name
 ```
 
 #### Commit changes:
-```
+```bash
 git commit -m "Add feature-name"
 ```
 
 #### Push to branch:
-```
+```bash
 git push origin feature-name
 ```
 
