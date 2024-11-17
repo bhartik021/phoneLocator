@@ -1,6 +1,4 @@
-# Phone Number Location Finder
-
-## Overview
+# Overview
 
 The Phone Locator Application is a full-stack project that allows users to find information about a phone number, including its country, location, carrier, and more. The project is built with a React.js frontend, a Django backend, and uses an external API for phone number validation and data retrieval.
 
@@ -87,12 +85,12 @@ cd phoneLocator
 
 #### Step 2: Backend Setup
 
-Navigate to the backend directory:
+1. Navigate to the backend directory:
 ```bash
 cd backend
 ```
 
-Create a virtual environment and activate it:
+2. Create a virtual environment and activate it:
 ```bash
 python3 -m venv venv
 ```
@@ -101,60 +99,60 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-Install the required dependencies:
+3. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a .env file in the backend directory:
+4. Create a .env file in the backend directory:
 ```bash
 touch .env
 ```
 
-Add your NumVerify API key to the .env file:
+5. Add your NumVerify API key to the .env file:
 ```bash
 API_LAYER_KEY=your_api_key_here
 ```
 
-Run the Django development server:
+6. Run the Django development server:
 ```bash
 python manage.py runserver
 ```
 
 #### Step 3: Frontend Setup
 
-Navigate to the frontend directory:
+1. Navigate to the frontend directory:
 ```bash
 cd ../frontend
 ```
 
-Install frontend dependencies:
+2. Install frontend dependencies:
 ```bash
 npm install
 ```
 
-Start the React development server:
+3. Start the React development server:
 ```bash
 npm start
 ```
 
 #### Step 4: Access the Application
 
-Open your browser and navigate to:
+1. Open your browser and navigate to:
 ```bash
 http://localhost:3000
 ```
 
 ## API Details
 
-Endpoint: ```/get-location/```
+1. Endpoint: ```/get-location/```
 
-Method: `GET`
+2. Method: `GET`
 
-Parameters:
+3. Parameters:
 `phone`: The phone number to validate and fetch details for.
 
-Response:
+4. Response:
 ```json
 {
   "country": "United States",
@@ -168,8 +166,6 @@ Response:
 }
 ```
 
-## Screenshots
-
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
@@ -177,22 +173,22 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 Contributions are welcome! Follow these steps:
 
 ### Fork the repository.
-#### Create a feature branch:
+1. Create a feature branch:
 ```bash
 git checkout -b feature-name
 ```
 
-#### Commit changes:
+2. Commit changes:
 ```bash
 git commit -m "Add feature-name"
 ```
 
-#### Push to branch:
+3. Push to branch:
 ```bash
 git push origin feature-name
 ```
 
-#### Open a pull request.
+4. Open a pull request.
 
 ## Contact
 - Developer: Bharti Kumari
