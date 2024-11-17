@@ -5,14 +5,16 @@ The Phone Locator Application is a full-stack project that allows users to find 
 <img width="1470" alt="Screenshot 2024-11-17 at 7 23 13 PM" src="https://github.com/user-attachments/assets/ff12caf5-5cda-48fa-879c-df06ef4c886d">
 
 ## Features
-
-- **Validation**: Accepts phone numbers with country codes.
-- **Data Fetching**: Provides:
-  - Country and location.
-  - Carrier and line type.
-  - International and local formats.
-- **User Interface**: A responsive and interactive UI with colorful icons for each piece of data.
-
+- **Phone Number Validation**: Accepts and validates phone numbers, including international formats.
+- **Detailed Location Information**: Provides comprehensive details about the phone number:
+  - **Country**: The country associated with the phone number.
+  - **Location**: The specific location or region.
+  - **Carrier**: The telecom carrier associated with the number.
+  - **Country Code**: The country code for international dialing.
+  - **Line Type**: Indicates whether the number is for mobile or landline.
+- **International and Local Formats**: Displays the phone number in both international and local formats.
+- **Validation Status**: Indicates whether the phone number is valid.
+- **User-Friendly Interface**: A clean and interactive UI to easily fetch and display the phone number details.
 
 ## Technology Stack
 
